@@ -79,6 +79,7 @@ section.container1 .items {
         text-align: center;
         text-decoration: underline;
         font-weight: bold;
+        border: 5px solid black;
     }
 }
 
@@ -126,6 +127,16 @@ section.container2 .right {
     height: 100%;
     & img {
         align-items: center;
+    }
+    & h3{
+        text-align: left;
+        font-size: 20px;
+    }
+    & p{
+        text-align: center;
+        text-decoration: underline;
+        font-weight: bold;
+        border: 5px solid black;
     }
 }
 

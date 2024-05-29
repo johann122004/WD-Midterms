@@ -76,10 +76,10 @@ section.container1 .items {
         font-size: 20px;
     }
     & p{
+        color: black;
         text-align: center;
         text-decoration: underline;
         font-weight: bold;
-        border: 5px solid black;
     }
 }
 
@@ -136,7 +136,7 @@ section.container2 .right {
         text-align: center;
         text-decoration: underline;
         font-weight: bold;
-        border: 5px solid black;
+        border: 3px solid black;
     }
 }
 
@@ -152,4 +152,7 @@ footer {
     left: 0px;
     background-image: url("Mountain-footer.jpg");
     background-color: rgba(0, 0, 0, 0.397);
+}
+section.container3 {
+    
 }
